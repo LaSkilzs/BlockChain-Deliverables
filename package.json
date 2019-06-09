@@ -1,0 +1,25 @@
+{
+  "name": "deliverables",
+  "version": "1.0.0",
+  "description": "\"blockchain todo list\"",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LaSkilzs/BlockChain-Deliverables.git"
+  },
+  "author": "La Fountain",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LaSkilzs/BlockChain-Deliverables/issues"
+  },
+  "homepage": "https://github.com/LaSkilzs/BlockChain-Deliverables#readme",
+  "dependencies": {
+    "truffle-contract": "^4.0.19"
+  }
+}
