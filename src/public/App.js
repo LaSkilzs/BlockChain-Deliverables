@@ -1,4 +1,6 @@
 import React from "react";
+import Profile from "../containers/Profile";
+import Login from "../containers/Login";
 import "./app.css";
 
 class App extends React.Component {
@@ -10,6 +12,8 @@ class App extends React.Component {
     return (
       <div className="app-container">
         <h1>Hello World!</h1>
+        <Login />
+        <Profile />
       </div>
     );
   }
