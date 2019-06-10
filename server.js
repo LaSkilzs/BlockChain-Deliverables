@@ -6,7 +6,7 @@ app.use(express.static("src"));
 app.use(express.static("build/contracts"));
 
 app.get("/", (req, res) => {
-  res.sendFile(`${__dirname}/src/index.html`);
+  res.sendFile(`${__dirname}/src/public/index.html`);
 });
 
 app.get("*", (req, res) => {
