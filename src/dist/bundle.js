@@ -81,20 +81,19 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/app.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/public/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
 
-/***/ "./src/app.js":
-/*!********************!*\
-  !*** ./src/app.js ***!
-  \********************/
+/***/ "./src/public/index.js":
+/*!*****************************!*\
+  !*** ./src/public/index.js ***!
+  \*****************************/
 /*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
+/***/ (function(module, exports) {
 
-"use strict";
-eval("\n\nalert(\"I work\");\n\n//# sourceURL=webpack:///./src/app.js?");
+eval("throw new Error(\"Module build failed (from ./node_modules/babel-loader/lib/index.js):\\nError: ENOENT: no such file or directory, open '/Users/lafountain/Desktop/the ideas/Deliverables/src/public/index.js'\");\n\n//# sourceURL=webpack:///./src/public/index.js?");
 
 /***/ })
 
