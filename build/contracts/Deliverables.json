@@ -1714,10 +1714,16 @@
       "links": {},
       "address": "0x03225365f94f0E91d37d85aD57a9106074Bb4d51",
       "transactionHash": "0x9cc19e541aa1a0fbf95eec2a4ecd8a2162365a5b91f69293565daeb401999ba5"
+    },
+    "1560120585758": {
+      "events": {},
+      "links": {},
+      "address": "0xF52B47a314Fa26d3EAd64723eC9Af43a05432860",
+      "transactionHash": "0x6e55739d7bbeb5c89e82d8f12f68630b19b220fa1ad2ce25b9cb3e9b1e64a400"
     }
   },
   "schemaVersion": "3.0.9",
-  "updatedAt": "2019-06-09T20:35:59.695Z",
+  "updatedAt": "2019-06-09T22:50:05.210Z",
   "devdoc": {
     "methods": {}
   },
