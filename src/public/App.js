@@ -1,7 +1,10 @@
 import React from "react";
 import Profile from "../containers/Profile";
 import Login from "../containers/Login";
+import Dashboard from "../containers/Dashboard";
+import Navbar from "../presentational/Navbar";
 import "./app.css";
+import { Route, Switch } from "react-router-dom";
 
 class App extends React.Component {
   constructor() {
@@ -11,9 +14,13 @@ class App extends React.Component {
   render() {
     return (
       <div className="app-container">
-        <h1>Hello World!</h1>
-        <Login />
-        <Profile />
+        <Navbar />
+        <Switch>
+          <Route path="/login" component={Login} />
+          <Route path="/profile" component={Profile} />
+          <Route path="/dashboard" component={Dashboard} />
+          <Route path="/" />
+        </Switch>
       </div>
     );
   }
