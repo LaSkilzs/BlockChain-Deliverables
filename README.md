@@ -24,6 +24,10 @@
 2. install truffle-contract
 3. install web3
 
+## Connect Oracle
+
+## Connect Zap
+
 ## RUN
 
 1. npm install
