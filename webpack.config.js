@@ -1,4 +1,5 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 module.exports = {
   mode: "development",
@@ -29,7 +30,13 @@ module.exports = {
         test: /\.json$/,
         include: "/build/contracts/",
         loader: "json-loader"
-      }
+      },
+      { test: /\.(png|svg|jpg|gif)$/, use: ["file-loader"] }
     ]
-  }
+  },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./src/public/index.html"
+    })
+  ]
 };
